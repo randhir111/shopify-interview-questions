@@ -10,7 +10,7 @@
 | --- | --------- |
 | 1 | [What is Shopify?](#What-is-Shopify) |
 | 2 | [How do you create a Shopify account?](#How-do-you-create-a-Shopify-account) |
-| 3 | [What is the Difference Between `call`, `apply`, and `bind`](#what-is-the-difference-between-call-apply-and-bind) |
+| 3 | [Can you describe your experience with Shopify's Liquid templating language and how you have used it in past projects?](#CanyoudescribeyourexperiencewithShopify'sLiquidtemplatinglanguageandhowyouhaveuseditinpastprojects?) |
 | 4 | [What is JSON and its common operations](#what-is-json-and-its-common-operations) |
 | 5 | [What is the purpose of the array slice method](#what-is-the-purpose-of-the-array-slice-method) |
 | 6 | [What is the purpose of the array splice method](#what-is-the-purpose-of-the-array-splice-method) |
@@ -34,11 +34,13 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
+3. ### Can you describe your experience with Shopify's Liquid templating language and how you have used it in past projects?
+    In my previous role, I developed a custom Shopify theme using Liquid to create a unique user experience tailored to the client's brand. I also integrated complex functionalities like dynamic product recommendations and custom filters, which significantly enhanced the store's performance and user engagement.
 
+    **[⬆ Back to Top](#table-of-contents)**
 
 ## Disclaimer
 
 Good luck with your interview 😊
 
 ---
-
