@@ -11,37 +11,37 @@
 | 1 | [What is Shopify?](#What-is-Shopify) |
 | 2 | [How do you create a Shopify account?](#How-do-you-create-a-Shopify-account) |
 | 3 | [Can you describe your experience with Shopify Liquid templating language and how you have used it in past projects?](#Can-you-describe-your-experience-with-Shopify-Liquid-templating-language-and-how-you-have-used-it-in-past-projects) |
-| 4 | [How do you approach optimizing the performance of a Shopify store?](#How-do-you-approach-optimizing-the-performance-of-a-Shopify-store?) |
-| 5 | [What strategies do you use to ensure a responsive design in Shopify themes?](#What-strategies-do-you-use-to-ensure-a-responsive-design-in-Shopify-themes?) |
-| 6 | [Can you explain the process of creating a custom Shopify app and the technologies involved?](#Can-you-explain-the-process-of-creating-a-custom-Shopify-app-and-the-technologies-involved?) |
-| 7 | [How do you handle version control in your Shopify development projects?](#How-do-you-handle-version-control-in-your-Shopify-development-projects?) |
-| 8 | [Describe a challenging problem you faced while developing a Shopify store and how you resolved it.](#Describe-a-challenging-problem-you-faced-while-developing-a-Shopify-store-and-how-you-resolved-it.) |
-| 9 | [What are the key differences between Shopify and Shopify Plus, and how do they impact development?](#What-are-the-key-differences-between-Shopify-and-Shopify-Plus,-and-how-do-they-impact-development?) |
-| 10 | [How do you integrate third-party APIs with Shopify and can you provide an example?](#How-do-you-integrate-third-party-APIs-with-Shopify-and-can-you-provide-an-example?) |
-| 11 | [What tools or methods do you use for testing and debugging Shopify themes and apps?](#What-tools-or-methods-do-you-use-for-testing-and-debugging-Shopify-themes-and-apps?) |
-| 12 | [How do you stay updated with the latest Shopify features and best practices?](#How-do-you-stay-updated-with-the-latest-Shopify-features-and-best-practices?) |
-| 13 | [Can you discuss your experience with Shopify's GraphQL API and its advantages over REST?](#Can-you-discuss-your-experience-with-Shopify's-GraphQL-API-and-its-advantages-over-REST?) |
-| 14 | [How do you manage and implement SEO best practices within a Shopify store?](#How-do-you-manage-and-implement-SEO-best-practices-within-a-Shopify-store?) |
-| 15 | [Describe your experience with Shopify's checkout process customization.](#Describe-your-experience-with-Shopify's-checkout-process-customization.) |
-| 16 | [How do you ensure accessibility standards are met in your Shopify projects?](#How-do-you-ensure-accessibility-standards-are-met-in-your-Shopify-projects?) |
-| 17 | [Can you explain how you would approach migrating a store from another platform to Shopify?](#Can-you-explain-how-you-would-approach-migrating-a-store-from-another-platform-to-Shopify?) |
-| 18 | [What is your experience with Shopify's built-in analytics and reporting features?](#What-is-your-experience-with-Shopify's-built-in-analytics-and-reporting-features?) |
-| 19 | [How do you prioritize tasks and manage deadlines in a Shopify development project?](#How-do-you-prioritize-tasks-and-manage-deadlines-in-a-Shopify-development-project?) |
-| 20 | [Can you provide an example of how you have collaborated with designers and marketers in a Shopify project?](#Can-you-provide-an-example-of-how-you-have-collaborated-with-designers-and-marketers-in-a-Shopify-project?) |
-| 21 | [What are some common pitfalls to avoid when developing on the Shopify platform?](#What-are-some-common-pitfalls-to-avoid-when-developing-on-the-Shopify-platform?) |
-| 22 | [How do you handle client feedback and revisions during the development process?](#How-do-you-handle-client-feedback-and-revisions-during-the-development-process?) |
-| 23 | [Can you discuss your experience with Shopify's multi-currency and multi-language features?](#Can-you-discuss-your-experience-with-Shopify's-multi-currency-and-multi-language-features?) |
-| 24 | [How do you approach security considerations when developing a Shopify store?](#How-do-you-approach-security-considerations-when-developing-a-Shopify-store?) |
-| 25 | [What is your experience with Shopify theme architecture and file structure?](#What-is-your-experience-with-Shopify-theme-architecture-and-file-structure?) |
-| 26 | [How do you ensure that your Shopify solutions are scalable for future growth?](#How-do-you-ensure-that-your-Shopify-solutions-are-scalable-for-future-growth?) |
-| 27 | [Can you share a project where you successfully improved user experience on a Shopify store?](#Can-you-share-a-project-where-you-successfully-improved-user-experience-on-a-Shopify-store?) |
+| 4 | [How do you approach optimizing the performance of a Shopify store?](#How-do-you-approach-optimizing-the-performance-of-a-Shopify-store) |
+| 5 | [What strategies do you use to ensure a responsive design in Shopify themes?](#What-strategies-do-you-use-to-ensure-a-responsive-design-in-Shopify-themes) |
+| 6 | [Can you explain the process of creating a custom Shopify app and the technologies involved?](#Can-you-explain-the-process-of-creating-a-custom-Shopify-app-and-the-technologies-involved) |
+| 7 | [How do you handle version control in your Shopify development projects?](#How-do-you-handle-version-control-in-your-Shopify-development-projects) |
+| 8 | [Describe a challenging problem you faced while developing a Shopify store and how you resolved it.](#Describe-a-challenging-problem-you-faced-while-developing-a-Shopify-store-and-how-you-resolved-it) |
+| 9 | [What are the key differences between Shopify and Shopify Plus, and how do they impact development?](#What-are-the-key-differences-between-Shopify-and-Shopify-Plus,-and-how-do-they-impact-development) |
+| 10 | [How do you integrate third-party APIs with Shopify and can you provide an example?](#How-do-you-integrate-third-party-APIs-with-Shopify-and-can-you-provide-an-example) |
+| 11 | [What tools or methods do you use for testing and debugging Shopify themes and apps?](#What-tools-or-methods-do-you-use-for-testing-and-debugging-Shopify-themes-and-apps) |
+| 12 | [How do you stay updated with the latest Shopify features and best practices?](#How-do-you-stay-updated-with-the-latest-Shopify-features-and-best-practices) |
+| 13 | [Can you discuss your experience with Shopify's GraphQL API and its advantages over REST?](#Can-you-discuss-your-experience-with-Shopify's-GraphQL-API-and-its-advantages-over-REST) |
+| 14 | [How do you manage and implement SEO best practices within a Shopify store?](#How-do-you-manage-and-implement-SEO-best-practices-within-a-Shopify-store) |
+| 15 | [Describe your experience with Shopify's checkout process customization.](#Describe-your-experience-with-Shopify's-checkout-process-customization) |
+| 16 | [How do you ensure accessibility standards are met in your Shopify projects?](#How-do-you-ensure-accessibility-standards-are-met-in-your-Shopify-projects) |
+| 17 | [Can you explain how you would approach migrating a store from another platform to Shopify?](#Can-you-explain-how-you-would-approach-migrating-a-store-from-another-platform-to-Shopify) |
+| 18 | [What is your experience with Shopify's built-in analytics and reporting features?](#What-is-your-experience-with-Shopify's-built-in-analytics-and-reporting-features) |
+| 19 | [How do you prioritize tasks and manage deadlines in a Shopify development project?](#How-do-you-prioritize-tasks-and-manage-deadlines-in-a-Shopify-development-project) |
+| 20 | [Can you provide an example of how you have collaborated with designers and marketers in a Shopify project?](#Can-you-provide-an-example-of-how-you-have-collaborated-with-designers-and-marketers-in-a-Shopify-project) |
+| 21 | [What are some common pitfalls to avoid when developing on the Shopify platform?](#What-are-some-common-pitfalls-to-avoid-when-developing-on-the-Shopify-platform) |
+| 22 | [How do you handle client feedback and revisions during the development process?](#How-do-you-handle-client-feedback-and-revisions-during-the-development-process) |
+| 23 | [Can you discuss your experience with Shopify's multi-currency and multi-language features?](#Can-you-discuss-your-experience-with-Shopify's-multi-currency-and-multi-language-features) |
+| 24 | [How do you approach security considerations when developing a Shopify store?](#How-do-you-approach-security-considerations-when-developing-a-Shopify-store) |
+| 25 | [What is your experience with Shopify theme architecture and file structure?](#What-is-your-experience-with-Shopify-theme-architecture-and-file-structure) |
+| 26 | [How do you ensure that your Shopify solutions are scalable for future growth?](#How-do-you-ensure-that-your-Shopify-solutions-are-scalable-for-future-growth) |
+| 27 | [Can you share a project where you successfully improved user experience on a Shopify store?](#Can-you-share-a-project-where-you-successfully-improved-user-experience-on-a-Shopify-store) |
 
 
 <!-- TOC_END -->
 
 <!-- QUESTIONS_START -->
 
-1. ### What are the possible ways to create objects in JavaScript
+1. ### What is Shopify?
     Shopify is a leading e-commerce platform that allows individuals and businesses to create their own online stores with ease. Founded in 2006, it offers a user-friendly interface, enabling users to set up and customize their stores without extensive technical knowledge. Shopify provides a range of tools for managing products, processing payments, and tracking inventory. Its scalability makes it suitable for both small businesses and large enterprises. Moreover, Shopify includes features like analytics, marketing integrations, and a variety of customizable themes, making it a comprehensive solution for anyone looking to sell products online.    
 
       **[⬆ Back to Top](#table-of-contents)**
