@@ -35,6 +35,11 @@
 | 25 | [What is your experience with Shopify theme architecture and file structure?](#What-is-your-experience-with-Shopify-theme-architecture-and-file-structure) |
 | 26 | [How do you ensure that your Shopify solutions are scalable for future growth?](#How-do-you-ensure-that-your-Shopify-solutions-are-scalable-for-future-growth) |
 | 27 | [Can you share a project where you successfully improved user experience on a Shopify store?](#Can-you-share-a-project-where-you-successfully-improved-user-experience-on-a-Shopify-store) |
+| 28 | [What are some key features of Shopify and Shopify Plus?](#What-are-some-key-features-of-Shopify-and-Shopify-Plus) |
+| 29 | [What are the differences between public and private apps in Shopify?](#What-are-the-differences-between-public-and-private-apps-in-Shopify?) |
+| 30 | [How do you create a custom section in a Shopify theme?](#How-do-you-create-a-custom-section-in-a-Shopify-theme) |
+
+| 31 | [Shopify Liquid Interview Questions](#Shopify-Liquid-Interview-Questions) |
 
 
 <!-- TOC_END -->
@@ -177,6 +182,98 @@
 
   **[⬆ Back to Top](#table-of-contents)**
 
+28. ### What are some key features of Shopify and Shopify Plus?
+    Key features of Shopify include:
+
+        Easy-to-use interface
+        Customizable themes
+        App Store with numerous integrations
+        Secure and reliable hosting
+        Multiple sales channels
+        SSL certificate
+        24/7 customer support
+
+    Shopify Plus is an enterprise-level solution offering additional features such as:
+        Advanced customization options
+        Dedicated support team
+        Increased API call limits
+        Custom checkout
+        Exclusive apps and integrations
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+
+29. ### What are the differences between public and private apps in Shopify?
+        Public Apps: 
+              Intended for multiple merchants
+              Listed on the Shopify App Store
+              Require OAuth 2.0 for authentication
+              Can be used as a revenue source for developers
+              Must comply with Shopify's App Store requirements
+
+        Private Apps:
+              Built for a specific merchant's store
+              Not listed on the Shopify App Store
+              Use basic HTTP authentication
+              Do not need to comply with App Store requirements
+
+  **[⬆ Back to Top](#table-of-contents)**
+
+30. ### How do you create a custom section in a Shopify theme?
+    To create a custom section in a Shopify theme, first, define the section in the theme's schema file. Then, create a new file in the sections folder and use Liquid code to define the content of the section. Finally, include the section in the theme.liquid file using the {% section %} tag. After that, the section can be customized and managed through the theme editor in the Shopify admin.
+
+  **[⬆ Back to Top](#table-of-contents)**
+
+31. ### Shopify Liquid Interview Questions
+      Q26: What is the purpose of the Liquid templating language in Shopify?
+
+      Ans: The purpose of the Liquid templating language in Shopify is to:
+
+      1. Render dynamic content: Liquid allows developers to display data from Shopify objects (such as products, collections, and customer information) within themes and templates.
+      2. Control flow: Liquid provides control structures like loops and conditionals to create more complex logic within templates.
+      3. Improve readability: Liquid uses a simple and easy-to-understand syntax, making it easier for developers to read and maintain the code.
+      4. Maintain consistency: Liquid is used across all Shopify themes, ensuring a consistent development experience for developers working with various themes.
+      
+      Q27: How do you create a dynamic content section using Liquid?
+
+      Ans: To create a dynamic content section using Liquid, follow these steps:
+
+      1. Create a new section file in the sections folder of your theme, e.g., dynamic-content.liquid.
+      2. Define the section settings using the schema tag:
+      {% schema %} { "name": "Dynamic Content", "settings": [ { "type": "text", "id": "heading", "label": "Heading", "default": "Sample Heading" }, { "type": "richtext", "id": "content", "label": "Content", "default": "<p>Sample content</p>" } ] } {% endschema %}
+
+      1. Add the Liquid code to render the content based on the section settings:
+      <div class="dynamic-content-section"> <h2>{{ section.settings.heading }}</h2> <div class="dynamic-content"> {{ section.settings.content }} </div> </div>
+
+      2. Include the section in a template file using the section tag:
+      {% section 'dynamic-content' %}
+
+      Q28: Can you explain the difference between filters and tags in Liquid?
+      Ans: In Liquid:
+
+      1. Filters are used to modify output. They take an input, apply a transformation, and return a modified output. Filters are added to Liquid objects using the pipe character |. Example: {{ product.title | upcase }} - this would output the product title in uppercase.
+      2. Tags are used to create logic and control flow in templates. They are written within curly braces and percentage signs {% %}. Tags can be used for loops, conditionals, variables, and other control structures. Example: {% if product.available %}In Stock{% else %}Out of Stock{% endif %} - this would display "In Stock" if the product is available, and "Out of Stock" otherwise.
+      
+      Q29: What are some techniques for troubleshooting Liquid code?
+      Ans: Techniques for troubleshooting Liquid code include:
+
+      1. Reviewing the documentation: Consult the official Shopify Liquid documentation to verify the correct usage of tags, filters, and objects.
+      2. Using the comment tag: Temporarily disable sections of code by wrapping them in {% comment %} and {% endcomment %} tags to isolate issues.
+      3. Debugging with assign: Use the assign tag to create temporary variables to track values and debug issues within your code.
+      4. Inspecting the browser console: Check for any errors or warnings in the browser console, which may indicate issues with JavaScript, CSS, or Liquid rendering.
+      
+      Q30: How do you optimize Liquid code for performance?
+      Ans: To optimize Liquid code for performance:
+
+      1. Minimize loops: Limit the use of for loops, especially nested loops, as they can significantly slow down page rendering.
+      2. Use pagination: When displaying large collections or product lists
+      3. Cache expensive operations: Use the cache tag to store the output of resource-intensive operations and reuse them later, reducing the need to perform the same operation multiple times.
+      4. Optimize images: Use Liquid filters like img_url and img_tag to optimize and serve appropriately sized images to different devices.
+      5. Reduce HTTP requests: Combine multiple Liquid assets (CSS or JavaScript files) into a single file using the stylesheet_tag and javascript_tag filters to reduce the number of HTTP requests.
+      6. Use conditional rendering: Use the if and unless tags to conditionally render content based on specific criteria, reducing the amount of unnecessary content on the page.
+      7. Minimize the use of global objects: Accessing global objects, such as all_products, can be resource-intensive. Use more specific queries to retrieve data when possible
+
+  **[⬆ Back to Top](#table-of-contents)**
 
 
 
