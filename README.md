@@ -194,6 +194,7 @@
         24/7 customer support
 
     Shopify Plus is an enterprise-level solution offering additional features such as:
+
         Advanced customization options
         Dedicated support team
         Increased API call limits
@@ -205,6 +206,7 @@
 
 29. ### What are the differences between public and private apps in Shopify?
         Public Apps: 
+
               Intended for multiple merchants
               Listed on the Shopify App Store
               Require OAuth 2.0 for authentication
@@ -212,6 +214,7 @@
               Must comply with Shopify's App Store requirements
 
         Private Apps:
+        
               Built for a specific merchant's store
               Not listed on the Shopify App Store
               Use basic HTTP authentication
