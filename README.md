@@ -9,35 +9,14 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [What is Shopify?](#What-is-Shopify) |
-| 2 | [How do you create a Shopify account?](#How-do-you-create-a-Shopify-account) |
-| 3 | [Can you describe your experience with Shopify Liquid templating language and how you have used it in past projects?](#Can-you-describe-your-experience-with-Shopify-Liquid-templating-language-and-how-you-have-used-it-in-past-projects) |
-| 4 | [How do you approach optimizing the performance of a Shopify store?](#How-do-you-approach-optimizing-the-performance-of-a-Shopify-store) |
-| 5 | [What strategies do you use to ensure a responsive design in Shopify themes?](#What-strategies-do-you-use-to-ensure-a-responsive-design-in-Shopify-themes) |
-| 6 | [Can you explain the process of creating a custom Shopify app and the technologies involved?](#Can-you-explain-the-process-of-creating-a-custom-Shopify-app-and-the-technologies-involved) |
-| 7 | [How do you handle version control in your Shopify development projects?](#How-do-you-handle-version-control-in-your-Shopify-development-projects) |
-| 8 | [Describe a challenging problem you faced while developing a Shopify store and how you resolved it.](#Describe-a-challenging-problem-you-faced-while-developing-a-Shopify-store-and-how-you-resolved-it) |
-| 9 | [What are the key differences between Shopify and Shopify Plus and how do they impact development?](#What-are-the-key-differences-between-Shopify-and-Shopify-Plus-and-how-do-they-impact-development) |
-| 10 | [How do you integrate third-party APIs with Shopify and can you provide an example?](#How-do-you-integrate-third-party-APIs-with-Shopify-and-can-you-provide-an-example) |
-| 11 | [What tools or methods do you use for testing and debugging Shopify themes and apps?](#What-tools-or-methods-do-you-use-for-testing-and-debugging-Shopify-themes-and-apps) |
-| 12 | [How do you stay updated with the latest Shopify features and best practices?](#How-do-you-stay-updated-with-the-latest-Shopify-features-and-best-practices) |
-| 13 | [Can you discuss your experience with Shopify GraphQL API and its advantages over REST?](#Can-you-discuss-your-experience-with-Shopify-GraphQL-API-and-its-advantages-over-REST) |
-| 14 | [How do you manage and implement SEO best practices within a Shopify store?](#How-do-you-manage-and-implement-SEO-best-practices-within-a-Shopify-store) |
-| 15 | [Describe your experience with Shopify checkout process customization.](#Describe-your-experience-with-Shopify-checkout-process-customization) |
-| 16 | [How do you ensure accessibility standards are met in your Shopify projects?](#How-do-you-ensure-accessibility-standards-are-met-in-your-Shopify-projects) |
-| 17 | [Can you explain how you would approach migrating a store from another platform to Shopify?](#Can-you-explain-how-you-would-approach-migrating-a-store-from-another-platform-to-Shopify) |
-| 18 | [What is your experience with Shopify built-in analytics and reporting features?](#What-is-your-experience-with-Shopify-built-in-analytics-and-reporting-features) |
-| 19 | [How do you prioritize tasks and manage deadlines in a Shopify development project?](#How-do-you-prioritize-tasks-and-manage-deadlines-in-a-Shopify-development-project) |
-| 20 | [Can you provide an example of how you have collaborated with designers and marketers in a Shopify project?](#Can-you-provide-an-example-of-how-you-have-collaborated-with-designers-and-marketers-in-a-Shopify-project) |
-| 21 | [What are some common pitfalls to avoid when developing on the Shopify platform?](#What-are-some-common-pitfalls-to-avoid-when-developing-on-the-Shopify-platform) |
-| 22 | [How do you handle client feedback and revisions during the development process?](#How-do-you-handle-client-feedback-and-revisions-during-the-development-process) |
-| 23 | [Can you discuss your experience with Shopify multi-currency and multi-language features?](#Can-you-discuss-your-experience-with-Shopify's-multi-currency-and-multi-language-features) |
-| 24 | [How do you approach security considerations when developing a Shopify store?](#How-do-you-approach-security-considerations-when-developing-a-Shopify-store) |
-| 25 | [What is your experience with Shopify theme architecture and file structure?](#What-is-your-experience-with-Shopify-theme-architecture-and-file-structure) |
-| 26 | [How do you ensure that your Shopify solutions are scalable for future growth?](#How-do-you-ensure-that-your-Shopify-solutions-are-scalable-for-future-growth) |
-| 27 | [Can you share a project where you successfully improved user experience on a Shopify store?](#Can-you-share-a-project-where-you-successfully-improved-user-experience-on-a-Shopify-store) |
-| 28 | [What are some key features of Shopify and Shopify Plus?](#What-are-some-key-features-of-Shopify-and-Shopify-Plus) |
-| 29 | [What are the differences between public and private apps in Shopify?](#What-are-the-differences-between-public-and-private-apps-in-Shopify?) |
-| 30 | [How do you create a custom section in a Shopify theme?](#How-do-you-create-a-custom-section-in-a-Shopify-theme) |
+| 2 | [What is the difference between Shopify Online Store 2.0 and older themes?](#What-is-the-difference-between-Shopify-Online-Store-2.0-and-older-themes) |
+| 3 | [What are sections and blocks in Shopify?](#What-are-sections-and-blocks-in-Shopify) |
+| 4 | [Explain Metafields vs Metaobjects.](#Explain-Metafields-vs-Metaobjects) |
+| 5 | [How do you use dynamic sources in theme editor?](#How-do-you-use-dynamic-sources-in-theme-editor) |
+| 6 | [How does Shopify handle multi-currency and multi-language stores?](#How-does-Shopify-handle-multi-currency-and-multi-language-stores) |
+| 5 | [What is the difference between Shopify Themes and Shopify Apps?](#What-is-the-difference-between-Shopify-Themes-and-Shopify-Apps) |
+
+
 
 | 31 | [Shopify Liquid Interview Questions](#Shopify-Liquid-Interview-Questions) |
 
@@ -47,188 +26,187 @@
 <!-- QUESTIONS_START -->
 
 1. ### What is Shopify?
-    Shopify is a leading e-commerce platform that allows individuals and businesses to create their own online stores with ease. Founded in 2006, it offers a user-friendly interface, enabling users to set up and customize their stores without extensive technical knowledge. Shopify provides a range of tools for managing products, processing payments, and tracking inventory. Its scalability makes it suitable for both small businesses and large enterprises. Moreover, Shopify includes features like analytics, marketing integrations, and a variety of customizable themes, making it a comprehensive solution for anyone looking to sell products online.    
 
-      **[⬆ Back to Top](#table-of-contents)**
+    Shopify is a leading e-commerce platform that enables businesses to create online stores and sell products easily.
 
-2. ### How do you create a Shopify account?
-    Creating a Shopify account is a straightforward process. First, visit the Shopify website and click on the "Start free trial" button. You will be prompted to enter your email address, create a password, and provide a store name. Once you complete this initial setup, Shopify will guide you through the onboarding process, where you'll fill out information about your business, such as address and phone number. After this, you can access the Shopify dashboard, where you can start customizing your store, adding products, and setting up payment and shipping options. This process typically takes only a few minutes, making it accessible even for beginners.
+     - Shopify provides customizable templates for online stores, allowing businesses to create a unique brand presence.
+     - It offers a user-friendly interface for managing products, orders, and customer data without needing extensive technical skills.
+     - Shopify supports various payment gateways, making it easy for customers to complete transactions securely.
+     - The platform includes built-in SEO features to help improve online visibility and attract more customers.
+     - Shopify has a vast app ecosystem, allowing merchants to extend functionality with tools for marketing, inventory management, and analytics.  
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+2. ### What is the difference between Shopify Online Store 2.0 and older themes?
+
+    🔹**Shopify Online Store 2.0:**
+        
+        A modern theme architecture introduced by Shopify that allows merchants and developers to build highly customizable, modular, and performace storefronts. It supports sections on every page, app blocks, JSON templates, and dynamic content via metafields.
+
+    🔹**older themes:**
+    
+        Older Shopify themes built before Online Store 2.0. These themes are more hard, allowing sections only on the homepage, requiring manual code edits for app integration, and lacking support for dynamic data and modular templates.
     
 
     **[⬆ Back to Top](#table-of-contents)**
 
-3. ### Can you describe your experience with Shopify Liquid templating language and how you have used it in past projects?
-    In my previous role, I developed a custom Shopify theme using Liquid to create a unique user experience tailored to the client's brand. I also integrated complex functionalities like dynamic product recommendations and custom filters, which significantly enhanced the store's performance and user engagement.
+3. ### What are sections and blocks in Shopify?
+
+    🔹**Sections in Shopify:**
+
+        Sections are modular, customizable components that make up a page in a Shopify theme. They are the building blocks of page layout (e.g., header,  footer, product info, collection grid, slideshow).
+
+    - **Types of Sections:**
+        1. **Static Sections:-** Fixed on every page (e.g., header, footer).
+        2. **Dynamic Sections:-** Can be added, reordered, or removed in the Theme Editor (e.g., image banner, product recommendations).
+
+    - **File Structure:** Each section is a .liquid file inside the sections/ folder (e.g., sections/product.liquid).
+
+    🔹 **Blocks in Shopify:**
+
+        Blocks are sub-elements inside a section. They provide more smooth control within a section. Example: In a product section → blocks might include product title, price, buy button, description, reviews, etc.
+
+    - **Usage:** Blocks allow merchants to reorder or toggle individual elements within a section from the Theme Editor.
+
+    - **File Structure:** Blocks are defined in the section’s schema ({% schema %} JSON inside the section file).
+
+    **Example (Product Section with Blocks):**
+
+     ```javascript
+    {% schema %}
+        {
+        "name": "Product information",
+        "settings": [],
+        "blocks": [
+            {
+            "type": "title",
+            "name": "Product title"
+            },
+            {
+            "type": "price",
+            "name": "Product price"
+            },
+            {
+            "type": "button",
+            "name": "Add to cart button"
+            }
+        ],
+        "presets": [
+            {
+            "name": "Default product info"
+            }
+        ]
+        }
+    {% endschema %}
+
+     ```
 
     **[⬆ Back to Top](#table-of-contents)**
 
-4. ### How do you approach optimizing the performance of a Shopify store?
-  To optimize the performance of a Shopify store, I start by compressing images and leveraging browser caching to reduce load times. Additionally, I audit the store for unnecessary apps and scripts, removing or deferring them to ensure a smoother user experience.
+4. ### Explain Metafields vs Metaobjects.
 
-5. ### What strategies do you use to ensure a responsive design in Shopify themes?
-  I prioritize using flexible grid layouts and media queries to ensure the design adapts seamlessly to different screen sizes. Additionally, I optimize images and assets for various devices and rigorously test the design across multiple browsers to guarantee a consistent user experience.
+    🔹**Metafields:**
 
-  **[⬆ Back to Top](#table-of-contents)**
+        Metafields are custom fields that we store extra information about Shopify resources (like products, collections, orders, customers, etc.).
+        Example: Material, size guide, care instructions, ISBN for books, expiry date, etc.
 
-6. ### Can you explain the process of creating a custom Shopify app and the technologies involved?
-    Creating a custom Shopify app involves planning the app's features, developing the backend with Node.js, and building the frontend using React. I also integrate Shopify's API for seamless data exchange and handle authentication and data storage to ensure a secure and efficient app.
+    - **Scope:** Attached to a specific resource (e.g., product.metafields.custom.material).
+    - **Data Type Support:** Text, number, file, URL, boolean, date, JSON, reference, etc.
+    - **Usage Example:**
+            - Show a “Fabric Material” metafield on a product page.
+            - Add a “Custom Badge” metafield to display “Bestseller” or “Limited Edition”.
+    - **Best For:** When you want to store small, resource-specific, extra data.
 
-  **[⬆ Back to Top](#table-of-contents)**
+    🔹**Metaobject:**
+        Metaobjects are structured data models in Shopify, like a custom database table. They let you define reusable collections of data that can be linked across the store.
 
-7. ### How do you handle version control in your Shopify development projects?
-    I use Git for tracking and managing code changes, ensuring that every modification is documented. By implementing branching strategies for feature development and bug fixes, I maintain a clean and organized codebase.  
+    - **Scope:** Independent objects that you define (like "Author", "Recipe", "FAQ", "Team Member"). Then you can reference them in multiple places.
+    - **Structure:**
+            - Each metaobject has fields (like columns in a table).
+            - You can create multiple entries (like rows in a table).
+    - **Usage Example:**
+            - Create a “Team Members” metaobject → fields: Name, Photo, Role, Bio.
+            - Create entries for each team member, then display them on an "About Us" page.
+            - Create a “Size Guide” metaobject → reusable across multiple products.
 
-  **[⬆ Back to Top](#table-of-contents)**
+    **[⬆ Back to Top](#table-of-contents)**
 
-8. ### Describe a challenging problem you faced while developing a Shopify store and how you resolved it.
-    I once faced a significant issue with a custom checkout process that was causing cart abandonment. By debugging the code and optimizing the checkout flow, I managed to reduce the abandonment rate by 30%, significantly boosting sales.
-     
+5. ### How do you use dynamic sources in theme editor?
 
-  **[⬆ Back to Top](#table-of-contents)**
+    Dynamic Sources in Shopify Theme Editor allow you to connect theme settings with Shopify data like metafields or metaobjects. Instead of entering static values, merchants can dynamically pull data such as product material, custom images, or size guides directly from Shopify’s database. This makes themes more flexible and reduces the need for hardcoding or third-party apps.
 
-9. ### What are the key differences between Shopify and Shopify Plus and how do they impact development?
-     Shopify Plus offers advanced features like customizable checkout, higher API limits, and dedicated support, which are essential for scaling high-volume stores. These features allow for more complex and tailored development solutions, ensuring the platform can grow with the business.
+    **How to Use (Step by Step):**
 
-  **[⬆ Back to Top](#table-of-contents)**
+    1. **Define a metafield or metaobject** in your Shopify Admin.
+        - Example: Products → Metafields → Add definition → Material (Text, Single line).
+    2. **Open Theme Editor** (Customize → Select Product Page).
+    3. Select a section/block (e.g., "Product description" block).
+    4. In the settings, look for the dynamic source icon (🔗 small database icon).
+    5. Click it → Shopify shows available metafields/metaobjects you can bind.
+    6. Choose the metafield (e.g., Product > Material).
+    7. Save → Now the value auto-populates from the metafield for each product.
 
-10. ### How do you integrate third-party APIs with Shopify and can you provide an example?
-    To integrate third-party APIs with Shopify, I first authenticate using OAuth and then set up webhooks for real-time data exchange. For instance, I successfully integrated a CRM system to sync customer data, enhancing the store's marketing capabilities.
+    **Example in Liquid:**
 
-  **[⬆ Back to Top](#table-of-contents)**
+    ```javascript
 
-11. ### What tools or methods do you use for testing and debugging Shopify themes and apps?
+        {% if product.metafields.custom.material != blank %}
+        <p class="product-material">
+            Material: {{ product.metafields.custom.material }}
+        </p>
+        {% endif %}
 
-    I use browser developer tools for real-time debugging and leverage Shopify's Theme Check to ensure code quality. Additionally, I implement automated testing with Jest and Cypress to catch issues early and maintain a seamless user experience.
+    ```
 
-  **[⬆ Back to Top](#table-of-contents)**
+    **[⬆ Back to Top](#table-of-contents)**
 
-12. ### How do you stay updated with the latest Shopify features and best practices?
-    I follow Shopify's official blog and developer changelog to stay updated with the latest features. Additionally, I participate in community forums and webinars to learn from industry experts and peers.
+6. ### How does Shopify handle multi-currency and multi-language stores?  
+    Shopify handles multi-currency through Shopify Payments and Markets, allowing customers to browse, checkout, and pay in their local currency with features like automatic conversion, rounding, and regional pricing. For multi-language, Shopify provides translation APIs, localization files, and Markets integration, enabling merchants to offer store content in multiple languages with native or app-based language switchers. Both features are managed under Shopify Markets, which unifies currencies, languages, and domains for global selling.
 
-  **[⬆ Back to Top](#table-of-contents)**
+    **Multi-Currency How it Works in Themes (Frontend):**
+    - Use Liquid money filters:
 
-13. ### Can you discuss your experience with Shopify GraphQL API and its advantages over REST?
-    In a recent project, I utilized Shopify's GraphQL API to streamline data queries, significantly reducing server load and improving performance. The flexibility of GraphQL allowed me to fetch only the necessary data, enhancing the efficiency of our app.
+    ```javascript
 
-  **[⬆ Back to Top](#table-of-contents)**
+        {{ product.price | money }}
+        {{ 1000 | money_with_currency }}
 
-14. ### How do you manage and implement SEO best practices within a Shopify store?
-    I focus on optimizing meta tags, titles, and descriptions with relevant keywords to improve search engine rankings. Additionally, I ensure the store has fast load times and a mobile-friendly design, which are crucial for SEO.
+    ```
+    - Shopify automatically formats according to customer’s chosen currency.
+    - Currency switchers can be implemented using:
+     1. Shopify Markets selector (native)
+     2. Shopify Geolocation app
+     3. Custom selector using Liquid + JavaScript
 
-  **[⬆ Back to Top](#table-of-contents)**
+    **Multi-Language How it Works in Themes (Frontend):**
+    - Use localization variables in Liquid:
 
-15. ### Describe your experience with Shopify checkout process customization.
-    I customized the checkout process by adding a progress bar and integrating a one-click upsell feature, which significantly improved the user experience and boosted average order value. Additionally, I implemented custom discount logic to provide personalized offers during checkout.
+    ```javascript
 
-  **[⬆ Back to Top](#table-of-contents)**
+        {{ 'products.product.add_to_cart' | t }}
 
-16. ### How do you ensure accessibility standards are met in your Shopify projects?
-    I adhere to WCAG guidelines and use semantic HTML and ARIA roles to ensure accessibility. Regular audits and user testing help me identify and fix any accessibility issues, making the store inclusive for all users.
+    ```
+    - Theme editor automatically pulls translations for supported languages.
+    - Language switchers can be implemented with:
+     1. Native selector (in Dawn and OS 2.0 themes)
+     2. Custom dropdown linked to localization.locale
 
-  **[⬆ Back to Top](#table-of-contents)**
+    **[⬆ Back to Top](#table-of-contents)**
 
-17. ### Can you explain how you would approach migrating a store from another platform to Shopify?
-    I start by thoroughly analyzing the existing platform and data structure to identify any potential challenges. Then, I meticulously plan the data migration, mapping fields to Shopify and ensuring data integrity. Finally, I conduct extensive testing before and after the migration to guarantee a seamless transition.
+7. ### What is the difference between Shopify Themes and Shopify Apps?
 
-  **[⬆ Back to Top](#table-of-contents)**
+    **Shopify Themes:**
+    A Shopify Theme is a collection of templates, layouts, and assets that define the visual design, structure, and user experience of a Shopify store. It controls how a store looks and feels to customers on the storefront.
 
-18. ### What is your experience with Shopify built-in analytics and reporting features?
-    I regularly use Shopify's built-in analytics to track key performance metrics like conversion rates and customer behavior. By creating custom reports, I can dive deeper into specific data points, allowing me to make informed decisions that drive store performance.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-19. ### How do you prioritize tasks and manage deadlines in a Shopify development project?
-    I use project management tools like Trello to break down tasks into manageable milestones and set clear deadlines. Regular communication with stakeholders ensures everyone is aligned, and I can quickly address any issues that arise.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-20. ### Can you provide an example of how you have collaborated with designers and marketers in a Shopify project?
-    In a recent project, I worked closely with designers to ensure the visual elements aligned with the brand's identity while collaborating with marketers to implement effective SEO strategies. This teamwork resulted in a visually stunning and highly optimized store that saw a 20% increase in organic traffic.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-21. ### What are some common pitfalls to avoid when developing on the Shopify platform?
-    One common pitfall is overloading the store with unnecessary apps and scripts, which can slow down performance. Another is neglecting mobile optimization, as a significant portion of users shop on their phones.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-22. ### How do you handle client feedback and revisions during the development process?
-    I maintain open and transparent communication with clients, ensuring their feedback is documented and prioritized based on project goals. By implementing an iterative process, I can continuously improve the product and meet client expectations effectively.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-23. ### Can you discuss your experience with Shopify multi-currency and multi-language features?
-    I have configured multi-currency settings to enable seamless international transactions, ensuring customers can shop in their preferred currency. Additionally, I implemented multi-language support using translation apps, enhancing accessibility and user experience for a global audience.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-24. ### How do you approach security considerations when developing a Shopify store?
-    I prioritize security by implementing SSL certificates for encrypted data transmission and regularly updating themes and apps to patch vulnerabilities. Additionally, I enforce two-factor authentication for admin access to enhance security.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-25. ### What is your experience with Shopify theme architecture and file structure?
-    I have extensive experience working with Shopify's theme architecture, including key files like layout, templates, and snippets. By leveraging Shopify's directory structure, I've efficiently customized themes to enhance both functionality and user experience.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-26. ### How do you ensure that your Shopify solutions are scalable for future growth?
-    I design flexible and modular code architecture to ensure scalability. By leveraging Shopify's built-in scalability features and regularly monitoring performance, I can accommodate future growth without compromising on speed or user experience.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-27. ### Can you share a project where you successfully improved user experience on a Shopify store?
-    I revamped the product page layout to include high-quality images and detailed descriptions, which significantly improved user engagement. As a result, the store saw a 25% increase in conversion rates within the first month.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-28. ### What are some key features of Shopify and Shopify Plus?
-    Key features of Shopify include:
-
-        Easy-to-use interface
-        Customizable themes
-        App Store with numerous integrations
-        Secure and reliable hosting
-        Multiple sales channels
-        SSL certificate
-        24/7 customer support
-
-    Shopify Plus is an enterprise-level solution offering additional features such as:
-
-        Advanced customization options
-        Dedicated support team
-        Increased API call limits
-        Custom checkout
-        Exclusive apps and integrations
+    **Shopify Apps:**
+    A Shopify App is software that extends a store’s functionality and business logic beyond what themes can do. Apps integrate with Shopify via APIs and can handle things like subscriptions, shipping, analytics, and third-party integrations. Unlike themes, which control the storefront design, apps handle features, automation, and backend logic.
 
 
-  **[⬆ Back to Top](#table-of-contents)**
 
-29. ### What are the differences between public and private apps in Shopify?
-        Public Apps: 
 
-              Intended for multiple merchants
-              Listed on the Shopify App Store
-              Require OAuth 2.0 for authentication
-              Can be used as a revenue source for developers
-              Must comply with Shopify's App Store requirements
-
-        Private Apps:
-        
-              Built for a specific merchant's store
-              Not listed on the Shopify App Store
-              Use basic HTTP authentication
-              Do not need to comply with App Store requirements
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-30. ### How do you create a custom section in a Shopify theme?
-    To create a custom section in a Shopify theme, first, define the section in the theme's schema file. Then, create a new file in the sections folder and use Liquid code to define the content of the section. Finally, include the section in the theme.liquid file using the {% section %} tag. After that, the section can be customized and managed through the theme editor in the Shopify admin.
-
-  **[⬆ Back to Top](#table-of-contents)**
-
-31. ### Shopify Liquid Interview Questions
-      Q26: What is the purpose of the Liquid templating language in Shopify?
+3. ### Shopify Liquid Interview Questions
+      
+      1: What is the purpose of the Liquid templating language in Shopify?
 
       Ans: The purpose of the Liquid templating language in Shopify is to:
 
