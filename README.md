@@ -42,8 +42,7 @@
     🔹**Shopify Online Store 2.0:** 
         A modern theme architecture introduced by Shopify that allows merchants and developers to build highly customizable, modular, and performace storefronts. It supports sections on every page, app blocks, JSON templates, and dynamic content via metafields.
 
-    🔹**older themes:**
-    
+    🔹**older themes:** 
         Older Shopify themes built before Online Store 2.0. These themes are more hard, allowing sections only on the homepage, requiring manual code edits for app integration, and lacking support for dynamic data and modular templates.
     
 
@@ -52,7 +51,6 @@
 3. ### What are sections and blocks in Shopify?
 
     🔹**Sections in Shopify:**
-
         Sections are modular, customizable components that make up a page in a Shopify theme. They are the building blocks of page layout (e.g., header,  footer, product info, collection grid, slideshow).
 
     - **Types of Sections:**
@@ -62,7 +60,6 @@
     - **File Structure:** Each section is a .liquid file inside the sections/ folder (e.g., sections/product.liquid).
 
     🔹 **Blocks in Shopify:**
-
         Blocks are sub-elements inside a section. They provide more smooth control within a section. Example: In a product section → blocks might include product title, price, buy button, description, reviews, etc.
 
     - **Usage:** Blocks allow merchants to reorder or toggle individual elements within a section from the Theme Editor.
@@ -105,7 +102,6 @@
 4. ### Explain Metafields vs Metaobjects.
 
     🔹**Metafields:**
-
         Metafields are custom fields that we store extra information about Shopify resources (like products, collections, orders, customers, etc.).
         Example: Material, size guide, care instructions, ISBN for books, expiry date, etc.
 
@@ -220,7 +216,7 @@
 
       1. Create a new section file in the sections folder of your theme, e.g., dynamic-content.liquid.
       2. Define the section settings using the schema tag:
-      {% schema %} { "name": "Dynamic Content", "settings": [ { "type": "text", "id": "heading", "label": "Heading", "default": "Sample Heading" }, { "type": "richtext", "id": "content", "label": "Content", "default": "<p>Sample content</p>" } ] } {% endschema %}
+      {% schema %} { "name": "Dynamic Content", "settings": [ { "type": "text", "id": "heading", "label": "Heading", "default": "Sample Heading" }, { "type": "richtext", "id": "content", "label": "Content", "default": "Sample content" } ] } {% endschema %}
 
       1. Add the Liquid code to render the content based on the section settings:
       <div class="dynamic-content-section"> <h2>{{ section.settings.heading }}</h2> <div class="dynamic-content"> {{ section.settings.content }} </div> </div>
