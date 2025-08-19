@@ -14,7 +14,10 @@
 | 4 | [Explain Metafields vs Metaobjects.](#Explain-Metafields-vs-Metaobjects) |
 | 5 | [How do you use dynamic sources in theme editor?](#How-do-you-use-dynamic-sources-in-theme-editor) |
 | 6 | [How does Shopify handle multi-currency and multi-language stores?](#How-does-Shopify-handle-multi-currency-and-multi-language-stores) |
-| 5 | [What is the difference between Shopify Themes and Shopify Apps?](#What-is-the-difference-between-Shopify-Themes-and-Shopify-Apps) |
+| 7 | [What is the difference between Shopify Themes and Shopify Apps?](#What-is-the-difference-between-Shopify-Themes-and-Shopify-Apps) |
+| 8 | [How does Shopify hosting work (CDN, Liquid rendering, caching)?](#How-does-Shopify-hosting-work-(CDN,-Liquid-rendering,-caching)) |
+| 9 | [Explain storefront vs admin side in Shopify.](#Explain-storefront-vs-admin-side-in-Shopify) |
+| 10 | [What are limitations of Shopify themes compared to custom apps?](#What-are-limitations-of-Shopify-themes-compared-to-custom-apps) |
 
 
 
@@ -196,6 +199,20 @@
     **Shopify Apps:**
     A Shopify App is software that extends a store’s functionality and business logic beyond what themes can do. Apps integrate with Shopify via APIs and can handle things like subscriptions, shipping, analytics, and third-party integrations. Unlike themes, which control the storefront design, apps handle features, automation, and backend logic.
 
+    **[⬆ Back to Top](#table-of-contents)**
+
+8. ### How does Shopify hosting work (CDN, Liquid rendering, caching)?
+    Shopify is fully hosted and runs on a global CDN. All static assets (images, JS, CSS) are cached and delivered from the nearest edge location for speed. Liquid templates are rendered server-side, pulling store data and outputting HTML before it reaches the browser. Shopify also uses layered caching — assets, pages, and API responses — with automatic cache invalidation when data changes. This ensures stores are fast, secure, and scalable without merchants needing to manage hosting.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+9. ### Explain storefront vs admin side in Shopify.
+    The storefront is the customer-facing side of Shopify where themes (Liquid, HTML, CSS, JS) control how products and pages are displayed. It focuses on the shopping experience. The admin side is the backend dashboard for merchants to manage products, orders, customers, and apps. It’s extended using the Admin API, Polaris, and App Bridge. In short, storefront = design & customer experience, admin = store management & business logic.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+10. ### What are limitations of Shopify themes compared to custom apps?
+    Shopify themes are limited to frontend design and layout using Liquid. They cannot access the Admin API, automate workflows, or integrate with third-party services. Custom apps, on the other hand, can extend Shopify’s backend logic, use APIs, automate processes, and integrate external tools. In short, themes control how the store looks, while apps control what the store can do.
 
 
 
