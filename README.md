@@ -39,8 +39,7 @@
 
 2. ### What is the difference between Shopify Online Store 2.0 and older themes?
 
-    🔹**Shopify Online Store 2.0:**
-        
+    🔹**Shopify Online Store 2.0:** 
         A modern theme architecture introduced by Shopify that allows merchants and developers to build highly customizable, modular, and performace storefronts. It supports sections on every page, app blocks, JSON templates, and dynamic content via metafields.
 
     🔹**older themes:**
