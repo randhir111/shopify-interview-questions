@@ -9,7 +9,7 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [What is Shopify?](#What-is-Shopify) |
-| 2 | [What is the difference between Shopify Online Store and older themes?](#What-is-the-difference-between-Shopify-Online-Store-and-older-themes) |
+| 2 | [What is the difference between Shopify Online Store 2.0 and older themes?](#What-is-the-difference-between-Shopify-Online-Store-and-older-themes) |
 | 3 | [What are sections and blocks in Shopify?](#What-are-sections-and-blocks-in-Shopify) |
 | 4 | [Explain Metafields vs Metaobjects.](#Explain-Metafields-vs-Metaobjects) |
 | 5 | [How do you use dynamic sources in theme editor?](#How-do-you-use-dynamic-sources-in-theme-editor) |
