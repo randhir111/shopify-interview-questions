@@ -18,10 +18,19 @@
 | 8 | [How does Shopify hosting work (CDN, Liquid rendering, caching)?](#How-does-Shopify-hosting-work-(CDN,-Liquid-rendering,-caching)) |
 | 9 | [Explain storefront vs admin side in Shopify.](#Explain-storefront-vs-admin-side-in-Shopify) |
 | 10 | [What are limitations of Shopify themes compared to custom apps?](#What-are-limitations-of-Shopify-themes-compared-to-custom-apps) |
+| 11 | [What is Shopify Liquid?](#What-is-Shopify-Liquid) |
+| 12 | [Difference between objects, filters, and tags in Liquid.](#Difference-between-objects-filters-and-tags-in-Liquid) |
+| 13 | [How do you output product price with currency?](#How-do-you-output-product-price-with-currency) |
+| 14 | [How to display related products in Liquid?](#How-to-display-related-products-in-Liquid) |
+| 15 | [How to check if a product is in stock?](#How-to-check-if-a-product-is-in-stock) |
+| 16 | [How do you show customer-specific content (logged-in vs guest)?](#How-do-you-show-customer-specific-content-logged-in-vs-guest) |
+| 17 | [Write Liquid code to show a rating metafield if available.](#Write-Liquid-code-to-show-a-rating-metafield-if-available) |
+| 18 | [How to create a custom template in Shopify?](#How-to-create-a-custom-template-in-Shopify) |
+| 19 | [How to implement pagination in a collection template?](#How-to-implement-pagination-in-a-collection-template) |
+| 20 | [How to use forloop.index and forloop.last in Liquid?](#How-to-use-forloop.index-and-forloop.last-in-Liquid) |
 
 
 
-| 31 | [Shopify Liquid Interview Questions](#Shopify-Liquid-Interview-Questions) |
 
 
 <!-- TOC_END -->
@@ -214,9 +223,163 @@
 10. ### What are limitations of Shopify themes compared to custom apps?
     Shopify themes are limited to frontend design and layout using Liquid. They cannot access the Admin API, automate workflows, or integrate with third-party services. Custom apps, on the other hand, can extend Shopify’s backend logic, use APIs, automate processes, and integrate external tools. In short, themes control how the store looks, while apps control what the store can do.
 
+    **[⬆ Back to Top](#table-of-contents)**
 
+11. ### What is Shopify Liquid?
+    Shopify Liquid is a templating language used to build Shopify themes. It takes store data (products, collections, customers, etc.) and renders it into HTML for the storefront. Liquid provides objects, tags, and filters to display and format data. While powerful for presentation logic, it has limitations compared to apps (no direct API calls or complex logic).
 
-3. ### Shopify Liquid Interview Questions
+    **How Liquid Works:**
+    - Liquid has 3 main components:
+
+    1. Objects → Output Shopify data
+
+    ```javascript
+
+        {{ product.title }}
+        {{ cart.total_price | money }}
+
+    ```
+    2. Tags → Logic & control flow
+
+    ```javascript
+
+        {% if product.available %}
+            In stock
+        {% else %}
+            Out of stock
+        {% endif %}
+
+    ```
+    3. Filters → Modify output
+
+    ```javascript
+
+        {{ product.title | upcase }}
+        {{ product.price | money_with_currency }}
+
+    ```
+    **[⬆ Back to Top](#table-of-contents)**
+
+12. ### Difference between objects, filters, and tags in Liquid.
+    In Liquid, objects are used to output Shopify store data, filters modify that data (formatting or transforming), and tags control logic and flow (conditions, loops, assignments).
+    **Objects:**
+    - Represent store data (products, collections, cart, customer, etc.).
+    - Outputted using double curly braces {{ }}.
+    - Think of them as variables that pull real data from Shopify.
+
+    ```javascript
+
+        {{ product.title }}         <!-- Outputs product name -->
+        {{ cart.total_price }}      <!-- Outputs total cart price (in cents) -->
+
+    ```
+    **Filters:**
+    - Modify or format the output of objects.
+    - Placed after a pipe symbol |.
+    - Can chain multiple filters together.
+
+    ```javascript
+
+        {{ product.title | upcase }} 
+        <!-- Outputs product title in uppercase -->
+
+        {{ product.price | money_with_currency }} 
+        <!-- Formats price as $10.00 USD -->
+
+    ```
+
+    **Tags:**
+    - Control logic and flow (conditions, loops, variables).
+    - Written inside {% %} (curly + percentage signs).
+    - Do not output data directly — they tell Liquid what to do.
+
+    ```javascript
+
+        {% if product.available %}
+            In Stock
+        {% else %}
+            Out of Stock
+        {% endif %}
+
+        {% for product in collection.products %}
+            {{ product.title }}
+        {% endfor %}
+
+    ```
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+13. ### How do you output product price with currency?
+    we output product price using the money or money_with_currency filters in Liquid.
+
+    ```javascript
+
+        {{ product.price | money_with_currency }}
+
+    ```
+    This will format the price and include the currency, like $19.99 USD.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+14. ### How to display related products in Liquid?
+    There are three main ways to display related products in Liquid:
+    - Show other products from the same collection.
+    - Use Shopify’s Product Recommendations API (recommendations.products).
+    - Use metafields (product reference) for manual selection.
+
+ **[⬆ Back to Top](#table-of-contents)**
+
+15. ### How to check if a product is in stock?
+    In Shopify, inventory is tracked at the variant level (not the product level).
+    **The key object is:**
+
+    - variant.available → returns true if the variant is purchasable.
+    - variant.inventory_quantity → returns the actual stock number (if inventory tracking is enabled).
+
+    To check if a product is in stock, we use the available property.
+
+     ```javascript
+
+        {% if product.available %} In stock {% else %} Out of stock {% endif %}
+
+    ```
+    **[⬆ Back to Top](#table-of-contents)**
+
+16. ### How do you show customer-specific content (logged-in vs guest)?
+    In Shopify, we can show customer-specific content using the customer object in Liquid. This object only exists when the user is logged in, otherwise it’s nil. By wrapping content in `{% if customer %}` conditionals, we can separate experiences for logged-in vs guest users. For example, we can display a welcome message with the customer’s name, show exclusive discounts, or restrict certain content like wholesale pricing. Additionally, by checking `customer.tags`, we can create advanced personalization like showing VIP or wholesale-only content. This approach allows stores to deliver a more personalized shopping experience without needing third-party apps
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+17. ### Write Liquid code to show a rating metafield if available.
+    To display a rating metafield only if it exists, we check the metafield value in Liquid using `{% if product.metafields.namespace.key != blank %}`. For example, if we created a metafield custom.rating, 
+    we can write:
+
+    ```javascript
+
+        {% if product.metafields.custom.rating != blank %}
+        ⭐ {{ product.metafields.custom.rating }}
+        {% endif %}
+
+    ```
+    This ensures that the rating appears only when a value is available. We can also enhance it by rendering star icons dynamically with a loop. This is a clean way to handle optional metafields without breaking the theme.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+18. ### How to create a custom template in Shopify?
+    In Shopify, we create a custom template when we want a different layout for specific products, collections, or pages. To do this, we add a new template file inside `/templates` (e.g., `product.alternative.json`) and reference a custom section (like `/sections/product-alternative.liquid`). Then we design the section schema with customizable blocks. Finally, in Shopify Admin, we assign this new template to a product or page. This is very useful for product landing pages, wholesale layouts, or content-rich pages. With Online Store 2.0 JSON templates, we get much more flexibility compared to older `.liquid` templates because we can manage multiple sections directly in the editor.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+19. ### How to implement pagination in a collection template?
+    To implement pagination in a collection template, we use the built-in Liquid `paginate` tag. For example, `{% paginate collection.products by 12 %}` will limit the products per page and automatically generate the `?page` parameter. Inside the paginate block, we loop over `collection.products`, and then use `paginate.previous`, `paginate.next`, and `paginate.parts` to render navigation links. This allows Shopify to handle large collections efficiently. We can further enhance this with AJAX-based pagination or infinite scrolling for better UX.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+20. ### How to use forloop.index and forloop.last in Liquid?
+    In Liquid, when looping over a collection, we can use the special `forloop` object to get details about the iteration. For example, `forloop.index` gives the current iteration number starting at 1, and `forloop.last` returns true if the current item is the last in the loop. A common use case is printing numbered lists or avoiding a trailing comma in tag lists. For example, `{% unless forloop.last %}`, `{% endunless %}` ensures there’s no comma after the final item. Similarly, we can use `forloop.first` or `forloop.last` to apply special styles to the first or last elements in a grid.
+    
+    **[⬆ Back to Top](#table-of-contents)**
+
       
       1: What is the purpose of the Liquid templating language in Shopify?
 
