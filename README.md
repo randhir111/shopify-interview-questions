@@ -28,10 +28,10 @@
 | 18 | [How to create a custom template in Shopify?](#How-to-create-a-custom-template-in-Shopify) |
 | 19 | [How to implement pagination in a collection template?](#How-to-implement-pagination-in-a-collection-template) |
 | 20 | [How to use forloop.index and forloop.last in Liquid?](#How-to-use-forloop-index-and-forloop-last-in-Liquid) |
-| 21 | [Difference between Storefront API and Admin API.](#Difference-between-Storefront-API-and-Admin-API.) |
+| 21 | [Difference between Storefront API and Admin API.](#Difference-between-Storefront-API-and-Admin-API) |
 | 22 | [What is GraphQL Storefront API?](#What-is-GraphQL-Storefront-API) |
-| 23 | [How do you fetch products via Storefront API using JS/React?]() |
-| 24 | [What is a Private App vs Custom App?](How-do-you-fetch-products-via-Storefront-API-using-JS/React) |
+| 23 | [How do you fetch products via Storefront API using JS/React?](#How-do-you-fetch-products-via-Storefront-API-using-JS/React) |
+| 24 | [What is a Private App vs Custom App?](What-is-a-Private-App-vs-Custom-App) |
 | 25 | [Explain App Bridge and Polaris UI.](#Explain-App-Bridge-and-Polaris-UI) |
 | 26 | [How do you authenticate with the Shopify Admin API?](#How-do-you-authenticate-with-the-Shopify-Admin-API) |
 | 27 | [How to create a custom checkout UI extension?](#How-to-create-a-custom-checkout-UI-extension) |
@@ -419,7 +419,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-20. ### How to use forloop.index and forloop.last in Liquid?
+20. ### How to use forloop index and forloop last in Liquid?
     In Liquid, when looping over a collection, we can use the special `forloop` object to get details about the iteration. For example, `forloop.index` gives the current iteration number starting at 1, and `forloop.last` returns true if the current item is the last in the loop. A common use case is printing numbered lists or avoiding a trailing comma in tag lists. For example, `{% unless forloop.last %}`, `{% endunless %}` ensures there’s no comma after the final item. Similarly, we can use `forloop.first` or `forloop.last` to apply special styles to the first or last elements in a grid.
     
     **[⬆ Back to Top](#table-of-contents)**
