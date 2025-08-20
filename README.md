@@ -9,7 +9,7 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [What is Shopify?](#What-is-Shopify) |
-| 2 | [What is the difference between Shopify Online Store 2.0 and older themes?](#What-is-the-difference-between-Shopify-Online-Store-2.0-and-older-themes?) |
+| 2 | [What is the difference between Shopify Online Store2.0 and older themes?](#What-is-the-difference-between-Shopify-Online-Store2.0-and-older-themes?) |
 | 3 | [What are sections and blocks in Shopify?](#What-are-sections-and-blocks-in-Shopify) |
 | 4 | [Explain Metafields vs Metaobjects.](#Explain-Metafields-vs-Metaobjects) |
 | 5 | [How do you use dynamic sources in theme editor?](#How-do-you-use-dynamic-sources-in-theme-editor) |
@@ -93,7 +93,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-2. ### What is the difference between Shopify Online Store 2.0 and older themes?
+2. ### What is the difference between Shopify Online Store2.0 and older themes?
 
     🔹**Shopify Online Store 2.0:** 
         A modern theme architecture introduced by Shopify that allows merchants and developers to build highly customizable, modular, and performace storefronts. It supports sections on every page, app blocks, JSON templates, and dynamic content via metafields.
