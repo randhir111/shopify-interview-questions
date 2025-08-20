@@ -9,13 +9,13 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [What is Shopify?](#What-is-Shopify) |
-| 2 | [What is the difference between Shopify Online Store 2.0 and older themes?](#What-is-the-difference-between-Shopify-Online-Store-2.0-and-older-themes) |
+| 2 | [What is the difference between Shopify Online Store 2.0 and older themes?](#What-is-the-difference-between-Shopify-Online-Store-2-and-older-themes) |
 | 3 | [What are sections and blocks in Shopify?](#What-are-sections-and-blocks-in-Shopify) |
 | 4 | [Explain Metafields vs Metaobjects.](#Explain-Metafields-vs-Metaobjects) |
 | 5 | [How do you use dynamic sources in theme editor?](#How-do-you-use-dynamic-sources-in-theme-editor) |
 | 6 | [How does Shopify handle multi-currency and multi-language stores?](#How-does-Shopify-handle-multi-currency-and-multi-language-stores) |
 | 7 | [What is the difference between Shopify Themes and Shopify Apps?](#What-is-the-difference-between-Shopify-Themes-and-Shopify-Apps) |
-| 8 | [How does Shopify hosting work (CDN, Liquid rendering, caching)?](#How-does-Shopify-hosting-work-(CDN,-Liquid-rendering,-caching)) |
+| 8 | [How does Shopify hosting work (CDN, Liquid rendering, caching)?](#How-does-Shopify-hosting-work-CDN-Liquid-rendering-caching) |
 | 9 | [Explain storefront vs admin side in Shopify.](#Explain-storefront-vs-admin-side-in-Shopify) |
 | 10 | [What are limitations of Shopify themes compared to custom apps?](#What-are-limitations-of-Shopify-themes-compared-to-custom-apps) |
 | 11 | [What is Shopify Liquid?](#What-is-Shopify-Liquid) |
@@ -27,7 +27,7 @@
 | 17 | [Write Liquid code to show a rating metafield if available.](#Write-Liquid-code-to-show-a-rating-metafield-if-available) |
 | 18 | [How to create a custom template in Shopify?](#How-to-create-a-custom-template-in-Shopify) |
 | 19 | [How to implement pagination in a collection template?](#How-to-implement-pagination-in-a-collection-template) |
-| 20 | [How to use forloop.index and forloop.last in Liquid?](#How-to-use-forloop.index-and-forloop.last-in-Liquid) |
+| 20 | [How to use forloop.index and forloop.last in Liquid?](#How-to-use-forloop-index-and-forloop-last-in-Liquid) |
 | 21 | [Difference between Storefront API and Admin API.](#Difference-between-Storefront-API-and-Admin-API.) |
 | 22 | [What is GraphQL Storefront API?](#What-is-GraphQL-Storefront-API) |
 | 23 | [How do you fetch products via Storefront API using JS/React?]() |
