@@ -68,7 +68,12 @@
 | 58 | [How do you manage global state (cart, auth) in React?](#How-do-you-manage-global-state-(cart,-auth)-in-React) |
 | 59 | [How to implement lazy loading product images in React?](#How-to-implement-lazy-loading-product-images-in-React) |
 | 60 | [How to handle SEO in a headless Shopify setup?](#How-to-handle-SEO-in-a-headless-Shopify-setup) |
-
+| 61 | [How to implement wishlist functionality?](#How-to-implement-wishlist-functionality) |
+| 62 | [How to build a custom product builder (personalization)?](#How-to-build-a-custom-product-builder-personalization) |
+| 63 | [How to implement upsell / cross-sell sections?](#How-to-implement-upsell-cross-sell-sections) |
+| 64 | [How do you build a mega menu in Shopify?](#How-do-you-build-a-mega-menu-in-Shopify) |
+| 65 | [How to create a multi-store setup with shared data?](#How-to-create-a-multi-store-setup-with-shared-data) |
+| 66 | [What are the biggest challenges you faced in Shopify development?](#What-are-the-biggest-challenges-you-faced-in-Shopify-development) |
 
 
 
@@ -727,6 +732,36 @@
 
 60. ### How to handle SEO in a headless Shopify setup?
     In a headless Shopify setup, SEO is not handled automatically like in Liquid themes, so we need to implement it ourselves. I make sure to fetch SEO fields (title, description, canonical URL) from Shopify and inject them into the head of the page. I also add structured data (JSON-LD) for products and collections to support Google Rich Snippets. Then I generate a dynamic sitemap and robots.txt for search engines. From a performance standpoint, I rely on Next.js features like ISR and lazy-loading images to improve Core Web Vitals. This ensures the headless store remains as SEO-friendly as a native Shopify store, while giving me full control.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+61. ### How to implement wishlist functionality?
+    To implement wishlist functionality in Shopify, I usually start with a localStorage-based solution for guest users, where product IDs are stored in the browser. For logged-in users, I extend this by storing wishlist data in customer metafields via the Storefront/Admin API, so the wishlist is persistent across devices. In a headless setup, I’d use a custom backend (like Firebase or MongoDB) to store wishlist data tied to the customer account, and fetch product details dynamically with the Storefront API. This ensures flexibility and scalability while giving a smooth user experience.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+62. ### How to build a custom product builder (personalization)?
+    To build a custom product builder in Shopify, I typically use line item properties when the customization doesn’t require a new SKU—for example, engraving text, uploaded images, or special notes. This ensures personalization details travel with the order. For more complex builders, like bundle products or multi-step configurations, I use AJAX API to handle product selection and pass custom properties to the cart. In headless setups, I’d store personalization data in a backend database and only send a reference ID to Shopify, which keeps checkout clean while allowing unlimited customization. I also enhance the UX with live previews, multi-step wizards, and conditional price adjustments using Shopify Functions.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+63. ### How to implement upsell / cross-sell sections?
+    To implement upsell and cross-sell in Shopify, I use a combination of Shopify’s Product Recommendations API and custom metafields. On product and cart pages, I fetch related products via AJAX and display them dynamically, allowing one-click add-to-cart. For drawer carts, I often show cross-sell suggestions when an item is added. In Shopify Plus, I can also leverage checkout extensibility to show post-purchase upsells. This way, I cover multiple touchpoints—product page, cart, checkout, and post-purchase—maximizing AOV (average order value).
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+64. ### How do you build a mega menu in Shopify?
+    To build a mega menu in Shopify, I use the built-in Navigation menu system to create parent, child, and grandchild links. In the theme’s `header.liquid`, I loop through navigation links with Liquid and output a multi-column dropdown using grid CSS. I usually add hover interactions and support for banners or featured products. For advanced flexibility, I integrate metafields or metaobjects so that merchants can assign custom images or product blocks inside the mega menu, without editing code.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+65. ### How to create a multi-store setup with shared data?
+    For multi-store setups, I usually evaluate whether Shopify Markets is enough, or if we need fully separate expansion stores. If we need separate stores (e.g., US/EU), I ensure data consistency by syncing products, customers, and inventory via the Admin API or a middleware service. On Shopify Plus, I’d use Multipass login for shared authentication, and webhook-driven sync for orders and stock. In a headless approach, I would fetch from a single Shopify backend via the Storefront API, while controlling region-specific catalog, currency, and tax logic in the frontend. This way, we achieve a global presence with centralized data.
+
+    **[⬆ Back to Top](#table-of-contents)**
+
+66. ### What are the biggest challenges you faced in Shopify development?
+    Some of the biggest challenges I’ve faced include checkout customization under the new checkout extensibility model, syncing data across multi-store setups, and improving theme performance when multiple apps slowed down Core Web Vitals. I solved these by leveraging Shopify Functions, building middleware with APIs & webhooks, and optimizing themes with lazy loading and script management. Another challenge is Liquid’s limitation for dynamic logic — in those cases, I use metafields, metaobjects, or headless approaches with Hydrogen/Next.js. These experiences helped me deliver scalable and high-performing Shopify stores.
 
     **[⬆ Back to Top](#table-of-contents)**
 
