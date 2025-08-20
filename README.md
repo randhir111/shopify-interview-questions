@@ -464,6 +464,29 @@
 
 30. ### Difference between Hydrogen (Headless) vs Liquid theme.
     Liquid themes are Shopify’s traditional templating approach where the frontend is tightly coupled with Shopify’s backend. They’re easy to customize with the theme editor and great for most merchants. Hydrogen, on the other hand, is Shopify’s React-based headless framework that uses the Storefront API. It gives developers complete freedom to build custom experiences, integrate external systems, and optimize performance with SSR/streaming. However, Hydrogen is developer-heavy and doesn’t have the drag-and-drop editor that merchants love in Liquid. In short, Liquid is best for standard Shopify stores, while Hydrogen is best for complex, enterprise, or highly customized commerce experiences.
+    1. Static Site Generation (SSG)
+    - When to use:
+        - For pages that don’t change often (e.g., product listing, homepage, about page).
+        - Data fetched at build time.
+        - Great for performance + SEO.
+    - How:
+        - Use getStaticProps in Next.js (if using pages/) OR fetch with cache: 'force-cache' in App Router.
+        - Example: Fetch Shopify products at build time
+
+    2. Incremental Static Regeneration (ISR)
+    - When to use:
+        - Products/prices change frequently, but don’t need real-time updates.
+        - Example: Product catalog pages.
+        - Rebuild specific pages in the background after a time interval.
+    - How: Add revalidate in App Router or getStaticProps.
+    - Example: ISR with Shopify product detail page
+
+    3. Server-Side Rendering (SSR)
+    - When to use:
+        - Content changes per request (e.g., personalized prices, B2B discounts, logged-in customer cart).
+        - Checkout-related pages.
+    - How: Use cache: "no-store" or fetchCache: "force-no-store".
+    - Example: SSR with customer-specific cart
 
     **[⬆ Back to Top](#table-of-contents)**
 
