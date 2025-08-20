@@ -30,26 +30,26 @@
 | 20 | [How to use forloop.index and forloop.last in Liquid?](#How-to-use-forloop-index-and-forloop-last-in-Liquid) |
 | 21 | [Difference between Storefront API and Admin API.](#Difference-between-Storefront-API-and-Admin-API) |
 | 22 | [What is GraphQL Storefront API?](#What-is-GraphQL-Storefront-API) |
-| 23 | [How do you fetch products via Storefront API using JS/React?](#How-do-you-fetch-products-via-Storefront-API-using-JS/React) |
-| 24 | [What is a Private App vs Custom App?](What-is-a-Private-App-vs-Custom-App) |
+| 23 | [How do you fetch products via Storefront API using JS/React?](#How-do-you-fetch-products-via-Storefront-API-using-JS-React) |
+| 24 | [What is a Private App vs Custom App?](#What-is-a-Private-App-vs-Custom-App) |
 | 25 | [Explain App Bridge and Polaris UI.](#Explain-App-Bridge-and-Polaris-UI) |
 | 26 | [How do you authenticate with the Shopify Admin API?](#How-do-you-authenticate-with-the-Shopify-Admin-API) |
 | 27 | [How to create a custom checkout UI extension?](#How-to-create-a-custom-checkout-UI-extension) |
 | 28 | [How do you store and fetch custom metafields via API?](#How-do-you-store-and-fetch-custom-metafields-via-API) |
 | 29 | [How to create a subscription app in Shopify?](#How-to-create-a-subscription-app-in-Shopify) |
-| 30 | [Difference between Hydrogen (Headless) vs Liquid theme.](#Difference-between-Hydrogen-(Headless)-vs-Liquid-theme.) |
+| 30 | [Difference between Hydrogen (Headless) vs Liquid theme.](#Difference-between-Hydrogen-Headless-vs-Liquid-theme.) |
 | 31 | [What is Shopify Plus?](#What-is-Shopify-Plus) |
-| 32 | [Difference between Checkout.liquid and Checkout Extensibility.](#Difference-between-Checkout.liquid-and-Checkout-Extensibility) |
-| 33 | [How do you add a custom discount box in checkout?](#How-do-you-add-a-custom-discount-box-in-checkout?) |
+| 32 | [Difference between Checkout.liquid and Checkout Extensibility.](#Difference-between-Checkout-liquid-and-Checkout-Extensibility) |
+| 33 | [How do you add a custom discount box in checkout?](#How-do-you-add-a-custom-discount-box-in-checkout) |
 | 34 | [How do you implement post-purchase checkout extension?](#How-do-you-implement-post-purchase-checkout-extension) |
 | 35 | [How to add checkout UI components with React?](#How-to-add-checkout-UI-components-with-React) |
 | 36 | [How to customize checkout for B2B customers?](#How-to-customize-checkout-for-B2B-customers) |
-| 37 | [Can you run custom scripts in checkout (discount, shipping)?](#Can-you-run-custom-scripts-in-checkout-discount,-shipping) |
+| 37 | [Can you run custom scripts in checkout (discount, shipping)?](#Can-you-run-custom-scripts-in-checkout-discount-shipping) |
 | 38 | [What are Shopify Functions and how are they different from scripts?](#What-are-Shopify-Functions-and-how-are-they-different-from-scripts) |
 | 39 | [Example use case of function for product discounts.](#Example-use-case-of-function-for-product-discounts) |
 | 40 | [How do you implement custom shipping logic in checkout extensibility?](#How-do-you-implement-custom-shipping-logic-in-checkout-extensibility) |
 | 41 | [How to update cart dynamically using AJAX API?](#How-to-update-cart-dynamically-using-AJAX-API) |
-| 42 | [Explain the difference between cart/add.js and cart/update.js](#Explain-the-difference-between-cart/add.js-and-cart/update.js) |
+| 42 | [Explain the difference between cart/add.js and cart/update.js](#Explain-the-difference-between-cart-add-js-and-cart-update-js) |
 | 43 | [How to implement a debounce search for products?](#How-to-implement-a-debounce-search-for-products) |
 | 44 | [How to fetch products with fetch API in JavaScript?](#How-to-fetch-products-with-fetch-API-in-JavaScript) |
 | 45 | [How to implement infinite scroll on collection page?](#How-to-implement-infinite-scroll-on-collection-page) |
@@ -59,13 +59,13 @@
 | 49 | [How do you fetch and show reviews dynamically?](#How-do-you-fetch-and-show-reviews-dynamically) |
 | 50 | [How to show recently viewed products using localStorage?](#How-to-show-recently-viewed-products-using-localStorage) |
 | 51 | [What is Hydrogen in Shopify?](#What-is-Hydrogen-in-Shopify) |
-| 52 | [How does Hydrogen + Oxygen hosting work?](#How-does-Hydrogen-+-Oxygen-hosting-work) |
-| 53 | [How do you fetch product data using GraphQL in a Next.js app?](#How-do-you-fetch-product-data-using-GraphQL-in-a-Next.js-app) |
+| 52 | [How does Hydrogen + Oxygen hosting work?](#How-does-Hydrogen-Oxygen-hosting-work) |
+| 53 | [How do you fetch product data using GraphQL in a Next.js app?](#How-do-you-fetch-product-data-using-GraphQL-in-a-Next-js-app) |
 | 54 | [How to implement a cart system in headless Shopify?](#How-to-implement-a-cart-system-in-headless-Shopify) |
-| 55 | [Difference between server components vs client components in Next.js.](#Difference-between-server-components-vs-client-components-in-Next.js) |
-| 56 | [How to handle ISR/SSG/SSR in Next.js with Shopify?](#How-to-handle-ISR/SSG/SSR-in-Next.js-with-Shopify) |
-| 57 | [How to implement Shopify checkout redirect in Next.js?](#How-to-implement-Shopify-checkout-redirect-in-Next.js) |
-| 58 | [How do you manage global state (cart, auth) in React?](#How-do-you-manage-global-state-(cart,-auth)-in-React) |
+| 55 | [Difference between server components vs client components in Next.js.](#Difference-between-server-components-vs-client-components-in-Next-js) |
+| 56 | [How to handle ISR/SSG/SSR in Next.js with Shopify?](#How-to-handle-ISR-SSG-SSR-in-Next-js-with-Shopify) |
+| 57 | [How to implement Shopify checkout redirect in Next.js?](#How-to-implement-Shopify-checkout-redirect-in-Next-js) |
+| 58 | [How do you manage global state (cart, auth) in React?](#How-do-you-manage-global-state-cart-auth-in-React) |
 | 59 | [How to implement lazy loading product images in React?](#How-to-implement-lazy-loading-product-images-in-React) |
 | 60 | [How to handle SEO in a headless Shopify setup?](#How-to-handle-SEO-in-a-headless-Shopify-setup) |
 | 61 | [How to implement wishlist functionality?](#How-to-implement-wishlist-functionality) |
@@ -434,7 +434,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-23. ### How do you fetch products via Storefront API using JS/React?
+23. ### How do you fetch products via Storefront API using JS React?
     To fetch products via the Storefront API in JavaScript/React, I send a POST request to the `/graphql.json` endpoint with a GraphQL query. The request includes the Storefront Access Token in the headers. In React, I’d typically use `useEffect` and state to fetch and render products dynamically. Since the Storefront API is GraphQL, I can request only the fields I need, such as product title, images, and variant prices, which keeps the response lightweight and efficient.
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -467,7 +467,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-30. ### Difference between Hydrogen (Headless) vs Liquid theme.
+30. ### Difference between Hydrogen Headless vs Liquid theme.
     Liquid themes are Shopify’s traditional templating approach where the frontend is tightly coupled with Shopify’s backend. They’re easy to customize with the theme editor and great for most merchants. Hydrogen, on the other hand, is Shopify’s React-based headless framework that uses the Storefront API. It gives developers complete freedom to build custom experiences, integrate external systems, and optimize performance with SSR/streaming. However, Hydrogen is developer-heavy and doesn’t have the drag-and-drop editor that merchants love in Liquid. In short, Liquid is best for standard Shopify stores, while Hydrogen is best for complex, enterprise, or highly customized commerce experiences.
     1. Static Site Generation (SSG)
     - When to use:
@@ -500,7 +500,7 @@
 
    **[⬆ Back to Top](#table-of-contents)**
 
-32. ### Difference between Checkout.liquid and Checkout Extensibility.
+32. ### Difference between Checkout liquid and Checkout Extensibility.
     Previously, Shopify Plus merchants used checkout.liquid to customize their checkout by editing Liquid templates directly. While this gave full control over layout and styling, it was risky, hard to maintain, and is now deprecated. Shopify has replaced this with Checkout Extensibility, which uses UI extensions, Functions, and Pixels to safely customize checkout in a structured, app-based way. Extensibility ensures customizations are upgrade-safe, works with one-page checkout and Shop Pay, and allows apps to extend checkout securely. While checkout.liquid offered more direct control, Checkout Extensibility is the modern, scalable, and future-proof approach.
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -531,7 +531,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-37. ### Can you run custom scripts in checkout (discount, shipping)?
+37. ### Can you run custom scripts in checkout discount shipping ?
     In the old checkout.liquid world, Plus merchants could run custom Ruby scripts in the Script Editor for discounts, shipping, and payments. With Checkout Extensibility, Shopify has replaced free-form scripts with Functions and Checkout UI Extensions. Functions allow us to write discount, shipping, and payment logic in a safe, scalable way, while Checkout UI Extensions let us add UI elements. This ensures checkout remains secure, upgrade-safe, and works with Shop Pay. So, while we can’t inject raw scripts anymore, we achieve the same (and more) with Functions and Extensions.
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -556,7 +556,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-42. ### Explain the difference between cart/add.js and cart/update.js
+42. ### Explain the difference between cart add.js and cart update.js
     The difference is that `/cart/add.js` is used to add a single product variant to the cart. If the item is already present, it increases the quantity. It only returns the added line item JSON. On the other hand, `/cart/update.js` is used to update multiple line items in bulk. It requires a map of variant IDs and their new quantities, and it returns the full cart object. In short, `add.js` is for adding, while `update.js` is for setting quantities across the cart.
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -660,7 +660,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-52. ### How does Hydrogen + Oxygen hosting work?
+52. ### How does Hydrogen Oxygen hosting work?
     Hydrogen is the React framework for building headless storefronts, while Oxygen is Shopify’s global hosting platform that serves these storefronts at the edge. Together, they allow developers to build high-performance, fully customized commerce experiences with React, powered by Shopify’s APIs, and delivered with the scalability, speed, and security of Shopify’s infrastructure. The key advantage is that you get the flexibility of a headless setup without managing your own hosting or servers.
     **Example Flow (User Journey)**
     - User visits Hydrogen storefront → request goes to Oxygen edge server nearest to them.
@@ -671,7 +671,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-53. ### How do you fetch product data using GraphQL in a Next.js app?
+53. ### How do you fetch product data using GraphQL in a Next js app?
     In a Next.js app, I connect to Shopify’s Storefront GraphQL API using the storefront access token. I structure a GraphQL query to fetch product fields like title, handle, price, and images. Depending on use case, I fetch this data in `getStaticProps` (SSG) for performance, or `getServerSideProps` (SSR) for real-time updates. This approach gives me full control of rendering Shopify data inside a custom React storefront.
     **Key Interview Talking Points**
     - Storefront API requires Storefront token (not Admin token).
@@ -695,17 +695,17 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-55. ### Difference between server components vs client components in Next.js.
+55. ### Difference between server components vs client components in Next js.
     In Next.js App Router, all components are Server Components by default. They run only on the server, can fetch data securely, and don’t add JS to the bundle. If we need interactivity like `useState` or event handlers, we mark the component with "`use client`", making it a Client Component that runs in the browser. Server Components can import both server and client components, but Client Components can only import client ones. This architecture improves performance by reducing JS shipped to the client.
 
     **[⬆ Back to Top](#table-of-contents)**
 
-56. ### How to handle ISR/SSG/SSR in Next.js with Shopify?
+56. ### How to handle ISR SSG SSR in Next js with Shopify?
     In a headless Shopify + Next.js setup, I decide rendering strategy based on content freshness. Static pages like homepage can use SSG for best performance. Product pages often use ISR, so they get updated automatically every few minutes when stock or prices change. For personalized or dynamic content like carts, checkout, and logged-in customer dashboards, I use SSR with cache: 'no-store'. This way, I balance performance with data accuracy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-57. ### How to implement Shopify checkout redirect in Next.js?
+57. ### How to implement Shopify checkout redirect in Next js?
     In a headless Shopify + Next.js build, checkout is always hosted on Shopify for PCI compliance. The workflow is:
     1. Create a checkout session via Storefront API using `checkoutCreate`.
     2. Shopify returns a `webUrl`.
@@ -714,7 +714,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-58. ### How do you manage global state (cart, auth) in React?
+58. ### How do you manage global state cart auth in React?
     In a React or Next.js Shopify storefront, I usually manage cart and auth globally using Context API or Zustand. For the cart, I maintain items, quantities, and totals in global state, sync it with Shopify’s Cart API, and persist it in localStorage. For authentication, I store the customerAccessToken securely (usually in HttpOnly cookies), keep it in state to control logged-in vs guest UI, and refresh it when it expires. In enterprise apps, I use Redux Toolkit because it provides better scalability and debugging via DevTools.
     **Best Practices (Interview Points)**
     - ✅ Use Context/Zustand for Shopify storefronts (lightweight, easy).
@@ -745,7 +745,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-63. ### How to implement upsell / cross-sell sections?
+63. ### How to implement upsell cross sell sections?
     To implement upsell and cross-sell in Shopify, I use a combination of Shopify’s Product Recommendations API and custom metafields. On product and cart pages, I fetch related products via AJAX and display them dynamically, allowing one-click add-to-cart. For drawer carts, I often show cross-sell suggestions when an item is added. In Shopify Plus, I can also leverage checkout extensibility to show post-purchase upsells. This way, I cover multiple touchpoints—product page, cart, checkout, and post-purchase—maximizing AOV (average order value).
 
     **[⬆ Back to Top](#table-of-contents)**
@@ -755,7 +755,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-65. ### How to create a multi-store setup with shared data?
+65. ### How to create a multi store setup with shared data?
     For multi-store setups, I usually evaluate whether Shopify Markets is enough, or if we need fully separate expansion stores. If we need separate stores (e.g., US/EU), I ensure data consistency by syncing products, customers, and inventory via the Admin API or a middleware service. On Shopify Plus, I’d use Multipass login for shared authentication, and webhook-driven sync for orders and stock. In a headless approach, I would fetch from a single Shopify backend via the Storefront API, while controlling region-specific catalog, currency, and tax logic in the frontend. This way, we achieve a global presence with centralized data.
 
     **[⬆ Back to Top](#table-of-contents)**
