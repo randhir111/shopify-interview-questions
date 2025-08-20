@@ -58,7 +58,6 @@
 | 48 | [How do you handle variant change with JS?](#How-do-you-handle-variant-change-with-JS) |
 | 49 | [How do you fetch and show reviews dynamically?](#How-do-you-fetch-and-show-reviews-dynamically) |
 | 50 | [How to show recently viewed products using localStorage?](#How-to-show-recently-viewed-products-using-localStorage) |
-
 | 51 | [What is Hydrogen in Shopify?](#What-is-Hydrogen-in-Shopify) |
 | 52 | [How does Hydrogen + Oxygen hosting work?](#How-does-Hydrogen-+-Oxygen-hosting-work) |
 | 53 | [How do you fetch product data using GraphQL in a Next.js app?](#How-do-you-fetch-product-data-using-GraphQL-in-a-Next.js-app) |
