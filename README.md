@@ -468,7 +468,8 @@
     **[⬆ Back to Top](#table-of-contents)**
 
 30. ### Difference between Hydrogen Headless vs Liquid theme.
-    Liquid themes are Shopify’s traditional templating approach where the frontend is tightly coupled with Shopify’s backend. They’re easy to customize with the theme editor and great for most merchants. Hydrogen, on the other hand, is Shopify’s React-based headless framework that uses the Storefront API. It gives developers complete freedom to build custom experiences, integrate external systems, and optimize performance with SSR/streaming. However, Hydrogen is developer-heavy and doesn’t have the drag-and-drop editor that merchants love in Liquid. In short, Liquid is best for standard Shopify stores, while Hydrogen is best for complex, enterprise, or highly customized commerce experiences.
+    Liquid themes are Shopify’s traditional templating approach where the frontend is tightly coupled with Shopify’s backend. They’re easy to customize with the theme editor and great for most merchants.
+    Hydrogen, on the other hand, is Shopify’s React-based headless framework that uses the Storefront API. It gives developers complete freedom to build custom experiences, integrate external systems, and optimize performance with SSR/streaming. However, Hydrogen is developer-heavy and doesn’t have the drag-and-drop editor that merchants love in Liquid. In short, Liquid is best for standard Shopify stores, while Hydrogen is best for complex, enterprise, or highly customized commerce experiences.
     1. Static Site Generation (SSG)
     - When to use:
         - For pages that don’t change often (e.g., product listing, homepage, about page).
@@ -495,7 +496,7 @@
 
     **[⬆ Back to Top](#table-of-contents)**
 
-31. ### What is Shopify Plus?
+32. ### What is Shopify Plus?
    Shopify Plus is the enterprise version of Shopify designed for large brands and high-volume merchants. It offers advanced features like customizable checkout via extensions, higher API limits, automation tools such as Flow and Launchpad, built-in B2B support, and unlimited staff accounts. Plus merchants also get dedicated support and expansion stores for international commerce. Essentially, Shopify Plus is best suited for businesses that need scalability, deep customization, and enterprise-grade performance. 
 
    **[⬆ Back to Top](#table-of-contents)**
