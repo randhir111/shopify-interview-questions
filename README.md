@@ -469,6 +469,7 @@
 
 30. ### Difference between Hydrogen Headless vs Liquid theme.
     Liquid themes are Shopify’s traditional templating approach where the frontend is tightly coupled with Shopify’s backend. They’re easy to customize with the theme editor and great for most merchants.
+    
     Hydrogen, on the other hand, is Shopify’s React-based headless framework that uses the Storefront API. It gives developers complete freedom to build custom experiences, integrate external systems, and optimize performance with SSR/streaming. However, Hydrogen is developer-heavy and doesn’t have the drag-and-drop editor that merchants love in Liquid. In short, Liquid is best for standard Shopify stores, while Hydrogen is best for complex, enterprise, or highly customized commerce experiences.
     1. Static Site Generation (SSG)
     - When to use:
