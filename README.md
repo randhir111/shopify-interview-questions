@@ -37,7 +37,7 @@
 | 27 | [How to create a custom checkout UI extension?](#How-to-create-a-custom-checkout-UI-extension) |
 | 28 | [How do you store and fetch custom metafields via API?](#How-do-you-store-and-fetch-custom-metafields-via-API) |
 | 29 | [How to create a subscription app in Shopify?](#How-to-create-a-subscription-app-in-Shopify) |
-| 30 | [Difference between Hydrogen (Headless) vs Liquid theme.](#Difference-between-Hydrogen-Headless-vs-Liquid-theme.) |
+| 30 | [Difference between Hydrogen (Headless) vs Liquid theme.](#Difference-between-Hydrogen-Headless-vs-Liquid-theme) |
 | 31 | [What is Shopify Plus?](#What-is-Shopify-Plus) |
 | 32 | [Difference between Checkout.liquid and Checkout Extensibility.](#Difference-between-Checkout-liquid-and-Checkout-Extensibility) |
 | 33 | [How do you add a custom discount box in checkout?](#How-do-you-add-a-custom-discount-box-in-checkout) |
